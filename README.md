@@ -1,5 +1,16 @@
 ## **URL Shortener**
+
+
+### **You can try this [Here](https://bitrl.onrender.com/)**
+##### NOTE: This is hosted on free tier on render. This might cause a delay in the response of the first request after a period of inactivity while the instance spins up.
+
 ------------------------------------------------------------------------------------------
+#### **Home Page**
+<img src="https://github.com/Shraeyas/url-shortener/raw/main/images/home.png" alt="drawing" width="400"/>
+
+#### **URLs and Summarization**
+<img src="https://github.com/Shraeyas/url-shortener/raw/main/images/urls.png" alt="drawing" width="400"/>
+<img src="https://github.com/Shraeyas/url-shortener/raw/main/images/summarized.png" alt="drawing" width="386"/>
 
 #### Shorten URLs
 
