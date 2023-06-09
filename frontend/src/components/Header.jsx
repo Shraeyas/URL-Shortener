@@ -71,10 +71,10 @@ const Header = () => {
                             </Grid>
                         </Grid>
                     </Box>
-                </> : <GoogleLogin
+                </> : <><br></br><GoogleLogin
                     onSuccess={onSuccess}
                     onError={onFailure}
-                />
+                /></>
             }
         </>
     );
