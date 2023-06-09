@@ -47,12 +47,9 @@ const getMyURLs = async (req, res, next) => {
             });
             if (user) {
                 let { _id } = user;
-                let urls = await analytics.find({
+                let urls = await ShortUrls.find({
                     user: _id
                 });
-
-                const url = new URL(urls[0].url);
-                const baseUrl = url.host;
 
                 res.json(urls.map(item => ({
                     base_url: (new URL(item.url)).host,

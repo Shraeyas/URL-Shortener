@@ -57,7 +57,7 @@ const Header = () => {
     return (
         <>
             <h1>URL Shortener</h1>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Shraeyas/url-shortener" target="_blank" rel="noopener noreferrer">
                 <img  className={[classes.image]} src="/images/git.png" alt="Icon" />
             </a>
 

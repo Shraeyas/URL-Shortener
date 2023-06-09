@@ -99,7 +99,7 @@ const MyUrls = () => {
                 catch (e) { }
             }
         })();
-    }, [summarizeBy, columnNameMap, token]);
+    }, [summarizeBy, token]);
 
     const getReadableDate = (dateStr) => {
         const dateObj = new Date(dateStr);
