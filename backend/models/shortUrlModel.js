@@ -8,6 +8,10 @@ const urlSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    short_url: {
+        type: String,
+        required: true
+    },
     encoded_id: {
         type: String,
         required: true,

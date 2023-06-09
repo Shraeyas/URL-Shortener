@@ -28,6 +28,7 @@ const urlShortener = async (req, res, next) => {
             const shortUrl = await ShortUrlModel.create({
                 url: url,
                 encoded_id: base62Encoded,
+                short_url: `http://${baseUrl}/${base62Encoded}`,
                 user: user._id
             });
             res.status(200).json({
