@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base-62": "^1.0.1",
+    "base-x": "^4.0.0",
+    "basex": "^1.0.1",
+    "bson-objectid": "^2.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22",
+    "valid-url": "^1.0.9",
+    "validator": "^13.9.0"
+  }
+}
