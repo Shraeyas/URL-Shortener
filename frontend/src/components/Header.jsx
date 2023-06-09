@@ -24,7 +24,12 @@ const Header = () => {
     const classes = useClasses(styles);
 
     const onSuccess = (res) => {
-        loginUser(jwt_decode(res.credential));
+        try {
+            loginUser(jwt_decode(res.credential));
+        }
+        catch(e) {
+            console.log("Error while logging in");
+        }
     }
     const onFailure = (res) => {
         console.log("Login Failed");
