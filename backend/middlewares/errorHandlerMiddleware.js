@@ -1,6 +1,6 @@
 require("dotenv").config();
 const errorHandlerMiddleware = (e, req, res, next) => {
-    let statusCode = res.statusCode | 500;
+    let statusCode = res.statusCode || 500;
     res.status(statusCode).json({
         success: false,
         error: e.message,
